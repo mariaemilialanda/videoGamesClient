@@ -1,0 +1,27 @@
+.button {
+    margin-top: 2rem;
+    font-size: 0.8rem; 
+    text-shadow: 1px 1px rgb(254, 8, 131); 
+    font-family: 'Press Start 2P', cursive;
+    color: rgb(255, 255, 6);
+    text-shadow: 2px 2px rgb(1, 14, 10);
+    position: relative;
+    cursor: pointer;
+    padding: 0.5rem 1rem;
+    background-color: transparent;
+    border: none;
+}
+
+
+.button:hover {
+    transform: scale(0.9);
+}
+
+
+.container{
+    width: 20rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    justify-content: space-around;
+}

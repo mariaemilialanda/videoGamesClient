@@ -1,0 +1,49 @@
+.landing{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+
+.h1{
+    font-size: 4rem;
+    color: fuchsia;
+    text-shadow: 3px 3px lightblue; 
+    animation: moveLetters 0.5s infinite;
+}
+
+@keyframes moveLetters {
+  0% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(5px);
+  }
+  100% {
+    transform: translateY(0);
+  }
+}
+
+.h2{
+    font-size: 2.5rem;
+    color: yellow;
+    text-shadow: 3px 3px fuchsia;
+ }
+
+ .button {
+    font-size: 1.5rem; 
+    text-shadow: 1px 1px gray; 
+    font-family: 'Press Start 2P', cursive;
+    color: blue;
+    text-shadow: 2px 2px fuchsia;
+    position: relative;
+    cursor: pointer;
+    padding: 0.5rem 1rem;
+    background-color: transparent;
+    border: none;
+}
+
+
+.button:hover {
+    transform: scale(0.9);
+}

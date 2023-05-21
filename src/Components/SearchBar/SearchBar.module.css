@@ -1,0 +1,40 @@
+ .searchbar{
+  display: flex;
+  margin-left: 55rem;
+  margin-top: -2rem;
+} 
+
+.buttonSearch, button, a {
+    margin-top: 0.01rem;
+    font-size: 0.8rem; 
+    text-shadow: 1px 1px rgb(254, 8, 131); 
+    font-family: 'Press Start 2P', cursive;
+    color: rgb(255, 255, 6);
+    text-shadow: 2px 2px rgb(1, 14, 10);
+    position: relative;
+    cursor: pointer;
+    padding: 0.5rem 1rem;
+    background-color: transparent;
+    border: none;
+}
+
+
+
+.buttonSearch:hover, button:hover, a:hover {
+    transform: scale(0.9);
+}
+
+.input{
+    margin-right: 0.9rem;
+    width: 20rem;
+    font-family: 'Press Start 2P', cursive;
+    font-size: 0.7rem;
+    background-color: rgba(225, 115, 172, 0.5);
+    border-color: rgb(84, 4, 57);
+}
+
+.input::placeholder{
+   color: rgb(242, 250, 5);
+   text-shadow: 2px 2px rgb(1, 14, 10);
+   text-align: center;
+}
